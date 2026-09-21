@@ -1,0 +1,28 @@
+{
+  "name": "cypress-typescript",
+  "version": "1.0.0",
+  "description": "Cypress test automation project (TypeScript) covering UI tests against saucedemo.com and API tests against reqres.in",
+  "private": true,
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run",
+    "test:ui": "cypress run --spec \"cypress/e2e/ui/**/*.cy.ts\"",
+    "test:api": "cypress run --spec \"cypress/e2e/api/**/*.cy.ts\""
+  },
+  "keywords": [
+    "cypress",
+    "typescript",
+    "test-automation",
+    "e2e",
+    "api-testing",
+    "page-object-model"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "cypress": "^16.1.0",
+    "typescript": "^5.9.0"
+  }
+}
